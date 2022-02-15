@@ -124,7 +124,6 @@ print(dic8[2][10])
 print(dic3.keys())
 print(dic3.values())
 
-
 # Methods
 dic_Method = {1: 10, 2: 20, 3: 30}
 
