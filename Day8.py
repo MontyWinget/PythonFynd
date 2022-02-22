@@ -122,6 +122,51 @@ class Child(Parent1, Parent2):
 ch = Child()
 ch.show()
 
+# Question : One IT company wants to set up its infra
+# External Staff -> name, id
+# Computers -> os_name, ram_storage
+# Furniture -> Color, Size
+# NOTE: No inheritance is allowed
+# Hint: They are 4 different companies
+# Print values using IT company
+
+
+class ExternalStaff:
+    def __init__(self, name, id):
+        self.name = name
+        self.id = id
+
+
+class Computers:
+    def __init__(self, os_name, ram):
+        self.os_name = os_name
+        self.ram = ram
+
+
+class Furniture:
+    def __init__(self, color, size):
+        self.color = color
+        self.size = size
+
+
+class Company:
+    def __init__(self, details, components, table):
+        self.details = details
+        self.components = components
+        self.table = table
+
+    def display(self):
+        print(f"External Staff name: {self.details.name} | ID: {self.details.id}")
+        print(f"OS: {self.components.os_name} | Ram : {self.components.ram}")
+        print(f"Furniture color: {self.table.color} | size: {self.table.size}")
+
+
+details_obj = ExternalStaff("Monty", 101)
+components_obj = Computers("Windows", "8 GB")
+table_obj = Furniture("White", "Big")
+Fynd = Company(details_obj, components_obj, table_obj)
+Fynd.display()
+
 
 
 
