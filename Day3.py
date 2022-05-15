@@ -190,7 +190,7 @@ print("---------------------------Zippppppppppppppp")
 for elements_new1, elements_new2 in zip(my_list_1, my_list_2):
     print(elements_new1, elements_new2)
 
-another_list = list[]
+# another_list = list[]
 
 print("Fourth Approach")
 my_list_1 = [1, 2, 3, 4, 5]

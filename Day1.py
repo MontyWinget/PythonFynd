@@ -97,6 +97,6 @@ print(example.endswith("e"))        # Returns true if the string ends with the s
 print(example.title())              # Converts the first character of each word to upper case
 print(example.swapcase())           # Swap cases lower case becomes upper case and vice versa
 test_variable = example2.encode()
-print(type(test_variable))    # Returns an encoded version of the string
+print(type(test_variable))          # Returns an encoded version of the string
 print(type(example3))
 print(example3.encode())
